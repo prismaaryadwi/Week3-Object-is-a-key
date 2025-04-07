@@ -1,15 +1,11 @@
 //cek apakah angka yang dikirim adalah angka prima atau bukan?
 //cek google bagi yang ga tau apa itu angka prima
-function angkaPrima(angka) {
+function angkaPrima(angka) {  
     if (angka < 2) return false;
-
     for (let i = 2; i <= Math.sqrt(angka); i++) {
-        if (angka % i === 0) {
-            return false;
-        }
+        if (angka % i === 0) return false;
     }
-
-    return true;
+    return true
 }
   
   // TEST CASES
