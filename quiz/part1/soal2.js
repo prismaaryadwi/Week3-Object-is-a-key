@@ -1,9 +1,9 @@
 //cari faktor persekutuan terbesar
 function fpb(angka1, angka2) {
     while (angka2 !== 0) {
-        let sisa = angka1 % angka2;
-        angka1 = angka2;
-        angka2 = sisa;
+        let sisa = angka1 % angka2; // sisa = 4
+        angka1 = angka2; //16                              // 16 % 4 = 0 / true
+        angka2 = sisa; //4  
     }
     return angka1;
 }
