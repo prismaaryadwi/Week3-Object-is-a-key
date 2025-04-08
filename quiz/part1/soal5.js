@@ -3,7 +3,7 @@
 function ubahHuruf(kata) {
     let hasil = '';
 
-    for (let i = 0; i < kata.length; i++) {
+    for (let i = 0; i < kata.length; i++) { // = 3
         let charCode = kata.charCodeAt(i); //mengambil kode ASCII tiap huruf
         let nextChar = String.fromCharCode(charCode + 1); //mengubah ke huruf berikutnya
 
