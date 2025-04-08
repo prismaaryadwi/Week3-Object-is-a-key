@@ -1,13 +1,13 @@
-function cariMedian(arr) {
+    function cariMedian(arr) {
     arr.sort((a, b) => a - b);
 
-    let mid = Math.floor(arr.length / 2);
+    let mid = Math.floor(arr.length / 2); // =2
 
 
     if (arr.length % 2 !== 0) {
         return arr[mid];
     } else {
-        return (arr[mid - 1] + arr[mid]) / 2;
+        return (arr[mid - 1] + arr[mid]) /2;
     }
   }
   
